@@ -723,6 +723,49 @@
         android:description="@string/permdesc_camera"
         android:protectionLevel="dangerous" />
 
+    <!-- ====================================================================== -->
+    <!-- Permissions for accessing the device usb hub                           -->
+    <!-- ====================================================================== -->
+    <eat-comment />
+
+    <!-- Used for permissions that are associated with accessing
+     the usb bus on the device. -->
+    <permission-group android:name="android.permission-group.USB"
+        android:icon="@drawable/perm_group_usb"
+        android:label="@string/permgrouplab_usb"
+        android:description="@string/permgroupdesc_usb"
+        android:priority="600" />
+
+    <!-- Allows an app to use devices on the USB bus.
+         <p>Protection level: dangerous
+    -->
+    <permission android:name="android.permission.ACCESS_USB_DEVICES"
+        android:permissionGroup="android.permission-group.USB"
+        android:label="@string/permlab_usb_devices"
+        android:description="@string/permdesc_usb_devices"
+        android:protectionLevel="dangerous" />
+
+    <!-- ====================================================================== -->
+    <!-- Permissions for accessing the device serial ports                      -->
+    <!-- ====================================================================== -->
+    <eat-comment />
+
+    <!-- Used for permissions that are associated with accessing
+     serial ports on the device. -->
+    <permission-group android:name="android.permission-group.SERIAL"
+        android:icon="@drawable/perm_group_serial"
+        android:label="@string/permgrouplab_serial"
+        android:description="@string/permgroupdesc_serial"
+        android:priority="600" />
+
+    <!-- Allows an app to use the serial ports.
+         <p>Protection level: dangerous
+    -->
+    <permission android:name="android.permission.SERIAL"
+        android:permissionGroup="android.permission-group.SERIAL"
+        android:label="@string/permlab_serial"
+        android:description="@string/permdesc_serial"
+        android:protectionLevel="dangerous" />
 
     <!-- ====================================================================== -->
     <!-- Permissions for accessing the device sensors                           -->

@@ -591,6 +591,16 @@
     <!-- Description of a category of application permissions, listed so the user can choose whether they want to allow the application to do this. -->
     <string name="permgroupdesc_sensors">access sensor data about your vital signs</string>
 
+    <!-- Title of a category of application permissions, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permgrouplab_usb">USB</string>
+    <!-- Description of a category of application permissions, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permgroupdesc_usb">access attached USB devices</string>
+
+    <!-- Title of a category of application permissions, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permgrouplab_serial">Serial</string>
+    <!-- Description of a category of application permissions, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permgroupdesc_serial">access serial ports</string>
+
     <!-- Title for the capability of an accessibility service to retrieve window content. -->
     <string name="capability_title_canRetrieveWindowContent">Retrieve window content</string>
     <!-- Description for the capability of an accessibility service to retrieve window content. -->
@@ -983,6 +993,16 @@
     <string name="permdesc_camera">Allows the app to take pictures and videos
       with the camera.  This permission allows the app to use the camera at any
       time without your confirmation.</string>
+
+      <!-- Title of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permlab_usb_devices">access usb devices</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_usb_devices">Allows the app to access attached usb devices.</string>
+
+      <!-- Title of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permlab_serial">access serial ports</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_serial">Allows the app to access serial ports for communication.</string>
 
     <!-- Title of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
     <string name="permlab_vibrate">control vibration</string>
@@ -1916,7 +1936,7 @@
     <string name="lockscreen_access_pattern_cleared">Pattern cleared</string>
     <!-- Accessibility description sent when user adds a dot to the pattern. [CHAR LIMIT=NONE]  -->
     <string name="lockscreen_access_pattern_cell_added">Cell added</string>
-    <!-- Accessibility description sent when user adds a dot to the pattern. Announces the 
+    <!-- Accessibility description sent when user adds a dot to the pattern. Announces the
     actual cell when headphones are connected [CHAR LIMIT=NONE]  -->
     <string name="lockscreen_access_pattern_cell_added_verbose">
             Cell <xliff:g id="cell_index" example="3">%1$s</xliff:g> added</string>
